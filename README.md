@@ -10,18 +10,18 @@
 
 Данный проект представляет из себя простой чат c приватными каналами. В вебсокеты использовались через Pusher.
 <p>Отправа и обработка сообщений реалиозвана в 
-app/events/SendMessageEvent.php
-app/http/Controllers/MessageController.php, 
-app/http/Requests/Message/StoreRequest.php,
-app/http/Resources/Message/MessageResource.php
-resources/js/Pages/Message/index.vue
+<p>app/events/SendMessageEvent.php</p>
+<p>app/http/Controllers/MessageController.php,</p> 
+<p>app/http/Requests/Message/StoreRequest.php,</p>
+<p>app/http/Resources/Message/MessageResource.php</p>
+<p>resources/js/Pages/Message/index.vue</p>
 </p>
 
 <p>
 Отправка лайков реализована в
-app/events/SendLikeEvent.php
-app/http/Controllers/UserController.php
-app/http/Requests/SendLikeRequest.php
-resources/js/Pages/User/show.vue
+<p>app/events/SendLikeEvent.php</p>
+<p>app/http/Controllers/UserController.php</p>
+<p>app/http/Requests/SendLikeRequest.php</p>
+<p>resources/js/Pages/User/show.vue</p>
 </p>
 
