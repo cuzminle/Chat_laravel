@@ -9,7 +9,7 @@
 
 
 Данный проект представляет из себя простой чат c приватными каналами. В вебсокеты использовались через Pusher.
-<p>Отправа и обработка сообщений реалиозвана в 
+<h4>Отправа и обработка сообщений реалиозвана в</h4> 
 <p>app/events/SendMessageEvent.php</p>
 <p>app/http/Controllers/MessageController.php,</p> 
 <p>app/http/Requests/Message/StoreRequest.php,</p>
@@ -18,7 +18,7 @@
 </p>
 
 <p>
-Отправка лайков реализована в
+<h4>Отправка лайков реализована в</h4>
 <p>app/events/SendLikeEvent.php</p>
 <p>app/http/Controllers/UserController.php</p>
 <p>app/http/Requests/SendLikeRequest.php</p>
